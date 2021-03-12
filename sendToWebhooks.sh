@@ -23,6 +23,7 @@ function send_to_webhooks(){
     curl -s -X POST -d "{\"text\": "$message"}" "$extra_flags"
 }
 
+# can be impoorted to other scripts by using 'source webhook_reports.sh'
 
 #example use:
 
